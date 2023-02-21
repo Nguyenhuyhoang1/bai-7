@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --color-one: #103178;
+  --color-two: #FEC700;
+  --color-three:#47b5ed;
+  --color-four:#5b6c8f;
+  --color-five:#F0F2F5;
+  --color-six :  #ffc800;
+  --color-seven: #13A05D;
+  --color-8: #BBBBBB;
+  --font: 'Inria Serif', serif;
+}
+
+
+
+.container{
+  width: 100%;
+  /* max-width: 1200px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px){
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+ul,li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.button-one a{
+  background: var(--color-six);
+  border-radius: 45px;
+  display: inline-block;
+  padding: 15px 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.button-one a:hover{
+  background-color: white;
+  color: var(--color-six);
+  border: 2px solid var(--color-six);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-two a{
+  background: var(--color-one);
+  border-radius: 45px;
+  display: inline-block;
+  padding: 8px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-two a:hover{
+  background-color: white;
+  color: var(--color-one);
+  border: 2px solid var(--color-one);
+  transition: all 0.3s ease-in-out;
+}
+
+.rating-star a{
+  color: var(--color-two);
+  font-size: 15px;
+  font-weight: 600;
+}
